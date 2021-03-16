@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SUD_PRIKAZ_PRINT.exe" version="1.0.0.0" publicKeyToken="6c3afedd5608f202" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Sud.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SUD_PRIKAZ_PRINT" version="1.0.4.2" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SUD_PRIKAZ_PRINT.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SUD_PRIKAZ_PRINT.exe" size="1002352">
+      <assemblyIdentity name="SUD_PRIKAZ_PRINT" version="1.0.4.2" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>n02/n7Te5U7sIe3/f8NL6pTROvE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Sud.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3lGybJy1CfwNEK6RHF8oRaVfGOI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BAW\Alex" issuerKeyHash="283ce8b07f71ce2e71833ad8aac6ac29091d3437" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>fyxl9B+tK0F9IYd/lH0BREPPyxQ=</DigestValue></Reference></SignedInfo><SignatureValue>MS2sJjr1s+YsN48wAYHASFIhHJef+SUlFiZhTrtG84JON9cnt83PL4mU+NfrLAgDRXwBgdWAQbFSXCuRNeBPcvU3D07ly5TTmF4GTjjwFRj8aakfOPeBFfd3F5e+FmYc/bbiY+tjtgJ/FSgv2fRJ9nPuOq5z/6hq9fmfZCbJ2l0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wB4tBYJ5Af1GHCbIfRNKzu3uJGIfaCJWArYGnRVWzPUo84p7XvZXXU2eHwFzcmmLmwKp/51GAfoNruXoi80xO3WwZJEZX5RY9BF3lJmPyeLsdU2pJ9OrZ/QA9FY9XiVXVCBwM/rNamlCFjHaAF/GtgfBwnQz2Q1kxrsGZKFI5pk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="14cbcf4344017d947f87217d412bad1ff4652c7f" Description="" Url=""><as:assemblyIdentity name="SUD_PRIKAZ_PRINT.exe" version="1.0.0.0" publicKeyToken="6c3afedd5608f202" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BAW\Alex</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ggfkx3EvS59P/GYHoou/ZbO+fOg=</DigestValue></Reference></SignedInfo><SignatureValue>XyEn3hjzcbw2xxX4dZOS4llx/Kyi8EGPsOmV4RR0kcuIljrxKQ0Za7p8bT/uX6ojvxS3UkQRZRITy0E+cA3y7T3cd29TTRS8PFQV32DgNO4ZLVJFGZKanpEkNxgI3Vz6Onasz53mObRFkpl9RIQD5DoZRxD1z0Fwnvgs4JpCWTg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wB4tBYJ5Af1GHCbIfRNKzu3uJGIfaCJWArYGnRVWzPUo84p7XvZXXU2eHwFzcmmLmwKp/51GAfoNruXoi80xO3WwZJEZX5RY9BF3lJmPyeLsdU2pJ9OrZ/QA9FY9XiVXVCBwM/rNamlCFjHaAF/GtgfBwnQz2Q1kxrsGZKFI5pk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQQWeWKcDyB4dJBXtoYQOktDANBgkqhkiG9w0BAQUFADAbMRkwFwYDVQQDHhAAQgBBAFcAXABBAGwAZQB4MB4XDTIxMDMxNjA3MDYzOVoXDTIyMDMxNjEzMDYzOVowGzEZMBcGA1UEAx4QAEIAQQBXAFwAQQBsAGUAeDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwB4tBYJ5Af1GHCbIfRNKzu3uJGIfaCJWArYGnRVWzPUo84p7XvZXXU2eHwFzcmmLmwKp/51GAfoNruXoi80xO3WwZJEZX5RY9BF3lJmPyeLsdU2pJ9OrZ/QA9FY9XiVXVCBwM/rNamlCFjHaAF/GtgfBwnQz2Q1kxrsGZKFI5pkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAh+awhBVeM62h7SQl2x+WVkEiUowaqQIeES4docKpewoOY5YTyQdMdeHhzfLeg1j3q2KFYSfm52ZAsvyUWSao5NGjrW1luoDOVjalbBg/kd4NOkkUg22NBag+fJcEp3C7jqbijVXVEI2dwimX5vqCfbvhXaCC3WKdsVmRRuyqLtA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
